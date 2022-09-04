@@ -1,0 +1,36 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  //   font-family: 'Titan One', cursive;
+  background: #ffffff;
+  &.no-scroll{
+    overflow: hidden;
+  }
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Titan One', cursive;
+  font-style: normal;
+  font-weight: 400;
+}
+
+html{
+  scroll-behavior: smooth;
+}
